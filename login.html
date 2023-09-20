@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de ubicaciones</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo-sec1.png"> <!--ÍCONO DE LA PÁGINA-->
+    
+    
+    <!--Vinculación del HTML a la hoja de estilos-->
+    <link rel="preload" href="css/style.css" as="style" >
+    <link rel="stylesheet" href="css/style.css">
+
+    
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/marianaautoparetsnuevosf.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Consulta</a>
+        <a class="navegacion__enlace" href="https://www.autopartesmariana.mx/partes-publico.php">Catálogo</a>
+        <a class="navegacion__enlace" href="https://grimex.com.mx/catalogo">Grimex</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Ingresa SKU</h1>
+
+        <form class="formulario" id="task-form">
+            <div class="centrar">
+                <input class="formulario__campo" type="text" placeholder="SKU" id="task-sku" >
+                <input class="formulario__submit" type="submit" id="consultar" value="Consultar">
+            </div>
+        </form>
+        
+    </main>
+
+    <section class="modal "> <!--VENTANA PARA MODAL INFORMATIVA: UBICACIÓN  -->
+        <div class="modal__container">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-x modal_x" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <rect x="4" y="4" width="16" height="16" rx="2" />
+                <path d="M10 10l4 4m0 -4l-4 4" /> <!--IMAGEN DE X PARA CERRAR VENTANA-->
+            </svg>
+            <div id="ubicacion_despl"></div>
+        </div>
+    </section>
+
+
+    <script src='js/index.js' type="module"></script>
+    
+</body>
+
+<footer class="footer">
+    <p class="footer__texto">Consulta de Ubicaciones - © 2023 Comercializadora de Intercambio Mariana SA de CV.</p>
+</footer>
+</html>
