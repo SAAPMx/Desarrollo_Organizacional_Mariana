@@ -400,7 +400,7 @@ h3 {
       padding: 2rem 8rem;
     }
   } 
-  @media (min-width: 430px) {
+  @media (min-width: 345px) {
     .iniciar {
         padding: 2rem 2rem;
       }
