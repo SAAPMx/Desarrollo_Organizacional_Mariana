@@ -138,6 +138,7 @@ const btnregistrar = document.getElementById("btn-registrar");
 const inicarContenedor = document.getElementById("iniciar"); //Espacio para colocar formulario
 const registrarContenedor = document.getElementById("registrar"); //Espacio para colocar formulario
 
+const footer = document.getElementById("footer");
 
 // list for auth state changes
 onAuthStateChanged(auth, async (user) => {
@@ -146,6 +147,8 @@ onAuthStateChanged(auth, async (user) => {
     try {
       const querySnapshot = await getDocs(collection(db, "personal")); //Para desplegar BD
       setupPosts(querySnapshot.docs);
+
+      footer.classList.add("footer_activo")
       
       console.log("Sí hay")
     } catch (error) {
@@ -153,6 +156,7 @@ onAuthStateChanged(auth, async (user) => {
     }
   } else {
     setupPosts([]);
+    footer.classList.remove("footer_activo")
     console.log("No hay")
     loginCheck(user);
 
@@ -188,6 +192,8 @@ onAuthStateChanged(auth, async (user) => {
       }
   }
 });
+
+
 btniniciar.addEventListener("click", async (e) => { //DESPLIGUE CON BOTÓN
   e.preventDefault();
   inicarContenedor.innerHTML = ``;
@@ -223,6 +229,8 @@ btniniciar.addEventListener("click", async (e) => { //DESPLIGUE CON BOTÓN
   console.log(error);
   }
 });
+
+
 btnregistrar.addEventListener("click", async (e) => {
   e.preventDefault();
   registrarContenedor.innerHTML = ``;
