@@ -10,13 +10,14 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/9.10.0/firebase
 // Your web app's Firebase configuration
 const firebaseConfig = {
   // Paste your firebase config here
-    apiKey: "AIzaSyCJu5AFtATruWMJouaP9LB4lrbIv2tAOgY",
-    authDomain: "agentes-de-excelencia.firebaseapp.com",
-    databaseURL: "https://agentes-de-excelencia-default-rtdb.firebaseio.com",
-    projectId: "agentes-de-excelencia",
-    storageBucket: "agentes-de-excelencia.appspot.com",
-    messagingSenderId: "1013460803165",
-    appId: "1:1013460803165:web:f7a3a5789a2d47e816b7b4"
+  apiKey: "AIzaSyBy7D--5sJzjIvS3kQyvmcmyLS7qe9QeUE",
+  authDomain: "sga-mariana.firebaseapp.com",
+  databaseURL: "https://sga-mariana-default-rtdb.firebaseio.com",
+  projectId: "sga-mariana",
+  storageBucket: "sga-mariana.appspot.com",
+  messagingSenderId: "167896396707",
+  appId: "1:167896396707:web:ce9da09764d884f556a016",
+  measurementId: "G-2HVTCS55YW"
 };
 
 // Initialize Firebase

@@ -19,6 +19,7 @@ const firebaseConfig = {
   storageBucket: "agentes-de-excelencia.appspot.com",
   messagingSenderId: "1013460803165",
   appId: "1:1013460803165:web:f7a3a5789a2d47e816b7b4"
+  
     
 };
 // Initialize Firebase

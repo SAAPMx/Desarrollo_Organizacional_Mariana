@@ -1,10 +1,10 @@
+import { loginCheck } from "./loginCheck.js";
 //import { collection, getDocs} from "https://www.gstatic.com/firebasejs/9.6.2/firebase-firestore.js";
 import { getDocs, collection } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-firestore.js"
-
 import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-auth.js"
 
 import { auth, db } from "./firebase.js";
-import { loginCheck } from "./loginCheck.js";
+
 import { setupPosts } from "./postList.js";
 
 import './signupForm.js'

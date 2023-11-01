@@ -59,6 +59,7 @@ export const setupPosts = (data) => {
             postList.innerHTML = html;
           }
           
+
           if (task.grado === "super"){
           const li = `
           <main class="container-flex">
@@ -123,7 +124,7 @@ export const setupPosts = (data) => {
 
         } else {
           if (paso == 0) {
-            //console.log("No coinciden " + user.email + " con "+ task.correo);
+            console.log("No coinciden " + user.email + " con "+ task.correo);
              postList.innerHTML = ``;
 
              /*const nullo = `
