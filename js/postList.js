@@ -37,7 +37,7 @@ export const setupPosts = (data) => {
                       <p class="subtitle-reception">Administrar</p>
                       <div class="menu-lat-option">
                           <label for="">01</label>
-                          <a href="">Pedidos Pendientes</a>
+                          <a href="">Conteo de Mercancía</a>
                       </div>
                       <div class="menu-lat-option">
                           <label for="">02</label>
@@ -76,7 +76,7 @@ export const setupPosts = (data) => {
                     <p class="subtitle-reception">Herramientas</p>
                     <div class="menu-lat-option">
                         <label for="">01</label>
-                        <a href="">Tickets Abiertos</a>
+                        <a href="">Conteo de Mercancía</a>
                     </div>
                     <div class="menu-lat-option">
                         <label for="">02</label>
@@ -100,7 +100,7 @@ export const setupPosts = (data) => {
               <hr>
               <div class="reception" >
                   <p class="subtitle-reception">Agentes de Excelencia</p>
-                  <h1>Hola, <a class="reception-a active-modal" href="../../apoyo/agentes-interno/inicio.html"> ${task.nombre}
+                  <h1>Hola, <a class="reception-a active-modal" href=""> ${task.nombre}
                   </a>. Accede a tu Bandeja</h1>
               </div>
   
@@ -110,7 +110,7 @@ export const setupPosts = (data) => {
                       <p class="subtitle-reception">Herramientas</p>
                       <div class="menu-lat-option">
                           <label for="">01</label>
-                          <a href="">Tickets Abiertos</a>
+                          <a href="">Conteo de Mercancía</a>
                       </div>
                   </div>
               </div>

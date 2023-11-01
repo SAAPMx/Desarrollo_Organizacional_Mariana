@@ -317,9 +317,41 @@ h3 {
   .margin-bottom{
     margin-bottom: 1rem;
   }
+
+
+/*POSTLIST   ------ */
+.reception{
+  flex-grow: 1;
+  max-width: 70%;
+
+}
+.reception h1{
+  max-width: 60rem;
+  max-height: 35rem;
+  text-align: start;
+}
+.reception-a{
+  text-decoration: none;
+  color: var(--claro-up-1);
+}
+.reception-a:hover{
+  transition: 0.3s;
+  color: var(--rojo-up);
+}
+
+.subtitle-reception{
+  text-transform: uppercase;
+  color: #000;
+}
+.menu-lat{
+  display: flex;
+  flex-direction: row;
+}
   
   
   
+
+
   /*FORMULARIO ---------------------- */
   .formulario{
     min-height: 6rem;
@@ -410,6 +442,9 @@ h3 {
   } 
   
   
+
+
+
   /*INICIAR SESIÓN*/
   .login-formulario{
     display: flex;
