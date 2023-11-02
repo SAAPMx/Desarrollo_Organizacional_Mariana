@@ -26,9 +26,8 @@ export const setupPosts = (data) => {
             <main class="container-flex">
               <hr>
               <div class="reception" >
-                  <p class="subtitle-reception">Mariana Autopartes</p>
-                  <h1>Hola, <a class="reception-a active-modal" href="./b4n314.html"> ${task.nombre}
-                  </a>. Accede a tu Bandeja</h1>
+                  <h2>Hola, <a class="reception-a active-modal" href=""> ${task.nombre}
+                  </a>. Accede a tu Bandeja</h2>
               </div>
   
               <div class="menu-lat">
@@ -65,9 +64,8 @@ export const setupPosts = (data) => {
           <main class="container-flex">
             <hr>
             <div class="reception" >
-                <p class="subtitle-reception">Agentes de Excelencia</p>
-                <h1>Hola, <a class="reception-a active-modal" href="../../apoyo/agentes-interno/inicio.html"> ${task.nombre}
-                </a>. Accede a tu Bandeja</h1>
+                <h2>Hola, <a class="reception-a active-modal" href=""> ${task.nombre}
+                </a>. Accede a tu Bandeja</h2>
             </div>
 
             <div class="menu-lat">
@@ -99,9 +97,8 @@ export const setupPosts = (data) => {
             <main class="container-flex">
               <hr>
               <div class="reception" >
-                  <p class="subtitle-reception">Agentes de Excelencia</p>
-                  <h1>Hola, <a class="reception-a active-modal" href=""> ${task.nombre}
-                  </a>. Accede a tu Bandeja</h1>
+                  <h2>Hola, <a class="reception-a active-modal" href=""> ${task.nombre}
+                  </a>. Accede a tu Bandeja</h2>
               </div>
   
               <div class="menu-lat">

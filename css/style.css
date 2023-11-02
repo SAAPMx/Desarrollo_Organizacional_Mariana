@@ -319,37 +319,135 @@ h3 {
   }
 
 
+
+
 /*POSTLIST   ------ */
-.reception{
-  flex-grow: 1;
-  max-width: 70%;
 
-}
-.reception h1{
-  max-width: 60rem;
-  max-height: 35rem;
-  text-align: start;
-}
-.reception-a{
-  text-decoration: none;
-  color: var(--claro-up-1);
-}
-.reception-a:hover{
-  transition: 0.3s;
-  color: var(--rojo-up);
-}
+@media (min-width: 768px) { /* Para celular, el fondo pasa a ser general*/
+  .container-flex{
+    display: flex;
+    justify-content: space-between;
+    max-width: 140rem;
+    margin-top: 3rem;
+    padding: 0 auto;
+    margin-bottom: 4rem;
+  }
+  .reception{
+    flex-grow: 1;
+    max-width: 70%;
+    margin-top: 0rem;
+    margin-bottom: 0;
+    margin-left: 15rem;
+  }
+  .reception h2{
+    font-family: var(--fuenteLato);
+    max-width: 60rem;
+    max-height: 35rem;
+  }
+  .reception-a{
+    text-decoration: none;
+    color: var(--gris);
+  }
+  .reception-a:hover{
+    transition: 0.3s;
+    color: var(--rojo-mariana);
+  }
+  .subtitle-reception{
+    font-family: var(--fuenteClaridad);
+    color: #000;
+    text-transform: uppercase;
+  }
+  .menu-lat{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20rem;
+  }
+  .v-line{
+    border-left: solid var(--rojo-mariana-2);
+    height:25%;
+    position: static;
+   }
+   .bloque-menu{
+     margin-left: 2rem;
+   }
+   .menu-lat a{
+     padding-left: .5rem;
+     text-decoration: none;
+     font-family: var(--fuenteLato);
+     color: var(--negro);
+     margin-bottom: 3rem;
+   }
+   .menu-lat a:hover{
+     transition: .3s;
+     color: var(--rojo-mariana);
+   }
+   .menu-lat label{
+     color: var(--rojo-mariana-2);
+   }
+   .menu-lat-option{
+     margin-bottom: 1rem;
+   }
+} 
 
-.subtitle-reception{
-  text-transform: uppercase;
-  color: #000;
-}
-.menu-lat{
-  display: flex;
-  flex-direction: row;
-}
+
+
+@media (min-width: 345px) {
+  .container-flex{
+    margin-top: 3rem;
+    padding: 0 auto;
+    margin-bottom: 4rem;
+  }
+  .reception{
+    margin: 0rem 2rem;
+  }
+  .reception h2{
+    font-family: var(--fuenteLato);
+    max-width: 60rem;
+    max-height: 35rem;
+  }
+  .reception-a{
+    text-decoration: none;
+    color: var(--gris);
+  }
+  .reception-a:hover{
+    transition: 0.3s;
+    color: var(--rojo-mariana);
+  }
+  .subtitle-reception{
+    font-family: var(--fuenteClaridad);
+    color: var(--negro);
+    text-transform: uppercase;
+  }
+  .menu-lat{
+    display: flex;
+    flex-direction: row;
+  }
+   .bloque-menu{
+     margin-left: 2rem;
+   }
+   .menu-lat a{
+     padding-left: .5rem;
+     text-decoration: none;
+     font-family: var(--fuenteLato);
+     color: var(--negro);
+     margin-bottom: 3rem;
+   }
+   .menu-lat a:hover{
+     transition: .3s;
+     color: var(--rojo-mariana);
+   }
+   .menu-lat label{
+     color: var(--rojo-mariana-2);
+   }
+   .menu-lat-option{
+     margin-bottom: 1rem;
+   }
+} 
   
   
-  
+
+
+
 
 
   /*FORMULARIO ---------------------- */
