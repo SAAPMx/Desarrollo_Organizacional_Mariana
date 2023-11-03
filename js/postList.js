@@ -65,7 +65,7 @@ export const setupPosts = (data) => {
             <hr>
             <div class="reception" >
                 <h2>Hola, <a class="reception-a active-modal" href=""> ${task.nombre}
-                </a>. Accede a tu Bandeja</h2>
+                </a>👋 Accede a tu Bandeja</h2>
             </div>
 
             <div class="menu-lat">
