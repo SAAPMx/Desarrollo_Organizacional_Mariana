@@ -36,7 +36,7 @@ export const setupPosts = (data) => {
                       <p class="subtitle-reception">Administrar</p>
                       <div class="menu-lat-option">
                           <label for="">01</label>
-                          <a href="">Conteo de Mercancía</a>
+                          <a href="cODFoFDnEtReFDo.html">Conteo de Mercancía</a>
                       </div>
                       <div class="menu-lat-option">
                           <label for="">02</label>
@@ -74,7 +74,7 @@ export const setupPosts = (data) => {
                     <p class="subtitle-reception">Herramientas</p>
                     <div class="menu-lat-option">
                         <label for="">01</label>
-                        <a href="">Conteo de Mercancía</a>
+                        <a href="cODFoFDnEtReFDo.html">Conteo de Mercancía</a>
                     </div>
                     <div class="menu-lat-option">
                         <label for="">02</label>
@@ -107,7 +107,7 @@ export const setupPosts = (data) => {
                       <p class="subtitle-reception">Herramientas</p>
                       <div class="menu-lat-option">
                           <label for="">01</label>
-                          <a href="">Conteo de Mercancía</a>
+                          <a href="cODFoFDnEtReFDo.html">Conteo de Mercancía</a>
                       </div>
                   </div>
               </div>
