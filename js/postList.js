@@ -8,6 +8,8 @@ var paso = 0; //Busca evitar que se desplieguen dos veces los saludos
 export const setupPosts = (data) => {
   if (data.length) {
     let html = "";
+
+    
     data.forEach((doc) => {
       const task = doc.data();
       //console.log("prueba del correo: "+task.correo)

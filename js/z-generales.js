@@ -47,12 +47,12 @@ VERSIÓN QUE SÍ PERMITE: https://www.gstatic.com/firebasejs/9.6.2/firebase-fire
 
 
 //FUNCIONES DE OPERACIONES GENERALES
-/*Agregar*/
+/*Agregar a Base*/
 export const saveTask = (mail, predio, referencia, contacto, descripcion, fecha) =>
   addDoc(collection(db, "tasks"), { mail, predio, referencia, contacto, descripcion, fecha });
 export const savePersonal = (correo, nombre, apellidoPaterno, apellidoMaterno, grado) =>
 addDoc(collection(db,"personal"), {correo, nombre, apellidoPaterno, apellidoMaterno, grado});
-/*Obetener*/
+/*Obetener de Base*/
 export const onGetTasks = (callback) =>
   onSnapshot(collection(db, "tasks"), callback);
 export const getTask = (id) => getDoc(doc(db, "tasks", id));
